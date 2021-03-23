@@ -1,0 +1,17 @@
+.statisticsList {
+  list-style: none;
+}
+.statisticItem {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: rgba(5, 24, 59, 0.822);
+}
+
+.statisticItem:nth-child(4) {
+  margin-bottom: 10px;
+}
+
+.statisticItem:last-child {
+  margin-bottom: 0;
+  border-top: 1px solid #406dcfea;
+}

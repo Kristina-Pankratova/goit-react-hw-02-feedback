@@ -1,0 +1,35 @@
+.feedbackBtnCont {
+  margin-top: 20px;
+}
+
+.feedbackBtn {
+  margin-right: 10px;
+  border: none;
+  background: #406dcfde;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 500ms ease;
+  /* background-color: rgba(100, 148, 237, 0.404);
+  border: 1px solid cornflowerblue;
+  border-radius: 10%; */
+}
+
+.feedbackBtn:hover {
+  background: rgba(0, 0, 0, 0);
+
+  color: #3768d1ea;
+  box-shadow: inset 0 0 0 2px #406dcfa1;
+  outline: none;
+}
+
+.feedbackBtn:focus {
+  outline: none;
+}
+
+.feedbackBtn:last-child {
+  margin-right: 0;
+}
