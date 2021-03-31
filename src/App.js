@@ -13,7 +13,7 @@ class App extends Component {
 
   feedbackClick = e => {
     this.setState(prevState => {
-      return { [e.target.name]: Number(prevState[e.target.name] + 1) };
+      return { [e.target.name]: prevState[e.target.name] + 1 };
     });
   };
 
